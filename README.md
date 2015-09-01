@@ -2,7 +2,7 @@
 
 This is a small demo to show case the basic rotational capabilites of the Navi SDK. It along with the Navi SDK are licensed under GPLv3.
 
-[Download Build Here](https://drive.google.com/file/d/0B3LXlcDQHnnWQWJmcWNFR2p6b2s/view?usp=sharing)
+[Download Build Here](https://github.com/vmohan7/NaviPirateDemo/releases/download/v1.0.0/PirateDemov1.0.0.zip)
 
 ## How to play
 
