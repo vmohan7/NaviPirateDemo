@@ -73,7 +73,7 @@ public class ScoreManager : MonoBehaviour {
 	/// <summary>
 	/// Callback for when the user taps with 3 fingers. This will start the game. 
 	/// </summary>
-	private void OnThreeFingerBegin(){
+	private void OnThreeFingerBegin(int playerID){ 
 		if (OnGameStart != null)
 			OnGameStart ();
 

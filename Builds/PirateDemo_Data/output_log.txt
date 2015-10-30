@@ -20,8 +20,8 @@ Loading C:\Users\Vasanth\Desktop\NaviPirateDemo\Builds\PirateDemo_Data\Managed\U
 Platform assembly: C:\Users\Vasanth\Desktop\NaviPirateDemo\Builds\PirateDemo_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
 Loading C:\Users\Vasanth\Desktop\NaviPirateDemo\Builds\PirateDemo_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
 Platform assembly: C:\Users\Vasanth\Desktop\NaviPirateDemo\Builds\PirateDemo_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.056 seconds
-desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+- Completed reload, in  0.109 seconds
+desktop: 1920x1080 60Hz; virtual: 3840x1080 at 0,0
 <RI> Initializing input.
 XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
 <RI> Input initialized.
@@ -32,12 +32,16 @@ Platform assembly: C:\Users\Vasanth\Desktop\NaviPirateDemo\Builds\PirateDemo_Dat
  
 (Filename:  Line: 46)
 
+SocketException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+
+  at System.Net.Sockets.Socket.Bind (System.Net.EndPoint local_end) [0x00000] in <filename unknown>:0 
+  at System.Net.Sockets.UdpClient.InitSocket (System.Net.EndPoint localEP) [0x00000] in <filename unknown>:0 
+  at System.Net.Sockets.UdpClient..ctor (Int32 port, AddressFamily family) [0x00000] in <filename unknown>:0 
+  at NaviConnectionSDK.StartSendingIP () [0x00000] in <filename unknown>:0 
+  at NaviConnectionSDK.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 368 -> priority: 1 
-  Thread -> id: 19c0 -> priority: 1 
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 6.403735 ms
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1769.
-Total: 1.065373 ms (FindLiveObjects: 0.173662 ms CreateObjectMapping: 0.148618 ms MarkObjects: 0.685205 ms  DeleteObjects: 0.050908 ms)
-
+  Thread -> id: 18a0 -> priority: 1 
+  Thread -> id: 1114 -> priority: 1 
